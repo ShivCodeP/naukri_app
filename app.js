@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const connect = () => {
-    return mongoose.connect("mongodb+srv://naukri:<password>@cluster0.u9tan.mongodb.net/test")
+    return mongoose.connect("mongodb+srv://naukri:naukri@cluster0.u9tan.mongodb.net/test")
 }
 
 // JOB SCHEMA
